@@ -1,0 +1,497 @@
+.title {
+  background: url(../images/main1.jpg) no-repeat center center fixed;
+  /* Full height */
+  width: 100%;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.navbar-brand {
+  font-family: 'Mate SC', serif;
+  font-size: 30px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/*Title Buttons*/
+.book-table-button {
+  font-weight: bold;
+  color: white;
+  margin: 3% 3% 5% 0;
+  border-radius: 5%
+}
+
+.order-button {
+  font-weight: bold;
+  color: white;
+  margin: 3% 3% 5% 0;
+}
+
+/* title section*/
+.titlecontent {
+  padding: 3% 8%;
+}
+
+.titlecontent {
+  width: 1200px;
+  text-align: left;
+  position: relative;
+  top: 300px;
+}
+
+.title2content {
+  color: white;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 18px;
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+h1 {
+  color: white;
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+}
+
+/*About Boxes*/
+.about {
+  background-color: white;
+  /* Full height */
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.aboutfont {
+  font-family: 'Mate SC', serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.row {
+  padding: 0 10%;
+  padding-bottom: 5%;
+}
+
+.box {
+  text-align: center;
+}
+
+.aboutheading {
+  padding: 4% 10%;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Lusitana', sans-serif;
+  font-weight: bold;
+  color: black;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*Menu*/
+.menu {
+  background-color: rgb(0 0 0);
+  /* Full height */
+  width: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.menuheading {
+  font-family: 'Mate SC', serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 0;
+}
+
+.pmenuhead {
+  color: white;
+  font-weight: bold;
+  padding-top: 5%;
+}
+
+.pmenuheadcontent {
+  font-family: 'Lusitana', serif;
+  font-size: 16px;
+  color: white;
+  padding: 0;
+}
+
+.appi {
+  display: block;
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+.salads {
+  display: block;
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+.main-course {
+  display: block;
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+.desert {
+  display: block;
+  max-width: 200px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+.image-resize {
+  width: 150px;
+  height: 150px;
+}
+
+.menucontent {
+  padding: 2% 10%;
+  padding-bottom: 5%;
+}
+
+.box1 img {
+  border: 2px solid white;
+}
+
+.box1 img {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.appicontent {
+  font-family: 'Lusitana', serif;
+  color: white;
+  padding: 0;
+}
+
+.saladscontent {
+  font-family: 'Lusitana', serif;
+  color: white;
+  padding: 0;
+}
+
+.maincoursecontent {
+  font-family: 'Lusitana', serif;
+  color: white;
+  padding: 0;
+}
+
+.desertcontent {
+  font-family: 'Lusitana', serif;
+  color: white;
+  padding: 0;
+}
+
+/* Menu Pricing list */
+.menulisting {
+  padding: 0;
+  margin: 0;
+  /* background: url(../images/mc.jpg) no-repeat center center fixed;
+  /* Full height */
+  /*width: 100%;
+  height: 100%;
+   Center and scale the image nicely
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+  margin: 0; */
+}
+
+.listhead {
+  top: 30px;
+  text-align: center;
+  color: black;
+  font-family: 'Mate SC', serif;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
+}
+
+.listcontent {
+  top: 10px;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  color: black;
+  font-family: 'Lusitana', sans-serif;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.box2 img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.box2 img {
+  text-align: center;
+  display: inline-block;
+  margin: 10px 10px 0 10px;
+  margin-bottom: 0;
+  width: 100px;
+  height: 80px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  margin: 0;
+  color: white;
+  /*background-color: #F4F9F9;#CDF0EA*/
+  background: rgb(0 0 0);
+  font-family: 'Lusitana', serif;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* .carousel-inner .active{
+    background-color: #f00;
+} */
+.testi {
+  color: white;
+  font-size: 18px;
+}
+
+.testimonial-image {
+  width: 150px;
+  height: 100px;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.gallery {
+  background-color: white;
+  padding: 10px;
+}
+
+.box3 img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.box3 img {
+  text-align: center;
+  padding-right: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 300px;
+  height: 350px;
+}
+
+/* Gallery */
+/* Press */
+.press {
+  background-color: black;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 10px 10px 20px;
+}
+
+/* Reservation Booking a table */
+#reservation {
+  background: url(../images/resimage.jpeg) no-repeat center center fixed;
+  /* Full height */
+  width: 100%;
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 0;
+}
+
+.total {
+  position: relative;
+  padding: 200px;
+}
+
+.form-group {
+  padding-bottom: 8px;
+}
+
+.validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.input {
+  height: 44px;
+}
+
+.textarea {
+  padding: 10px 12px;
+}
+
+.button[type="submit"] {
+  border: 0;
+  padding: 20px 35px;
+  color: #fff;
+  border-radius: 50px;
+}
+
+/* Footer Section */
+#footer {
+  background: black;
+  background: url(../images/main1.jpg) no-repeat center center fixed;
+  /* Full height */
+  width: 100%;
+  height: auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 100px;
+  padding-bottom: 0;
+  margin: 0;
+}
+
+#footer h1 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 2rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+#footer h1 span {
+  font-family: "Lusitana"serif;
+  color: white;
+}
+
+.foottitle {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Lusitana "serif;
+}
+
+.titles {
+  font-family: "Lusitana"serif;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-info {
+  font-family: "Lusitana "serif;
+  color: white;
+  font-size: 15px;
+}
+
+.foot-head-content {
+  font-family: "Lusitana"serif;
+  color: white;
+  font-size: 15px;
+}
+
+.footlinktitle {
+  font-family: "Lusitana "serif;
+  font-weight: bold;
+  color: white;
+  font-size: 22px;
+}
+
+.footnewstitle {
+  font-family: "Lusitana "serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+}
+
+.footnewscontent {
+  font-family: "Lusitana"serif;
+  color: white;
+  font-size: 15px;
+}
+
+.icons {
+  left: 200px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: white;
+  /* display: inline-block; */
+  left: 200px;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Lusitana "serif;
+  margin: 0;
+  color: white;
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+
+@media (max-width:822px) {
+  .titlecontent {
+    width: auto;
+    top: 30px;
+    left: 30px;
+    position: relative;
+  }
+}

@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quickeats</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- google fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lusitana&family=Merriweather:ital,wght@1,700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+
+  <!-- for font size-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- cssfile -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+  <!-- jquery files-->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <!-- faviconadding -->
+  <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+  <section class="title" id="home">
+
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+      <div class="container">
+
+
+        <a class="navbar-brand" href=" ">Quickeats</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <!--use ms-auto instead of ml-auto -->
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testi-monial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- TO add background image to section check title section in styles.css-->
+    <div class="titlecontent">
+
+      <div class="col-lg-8">
+        <h1> Welcome to <span class="titlechange">Quickeats</span>!!</h1>
+        <h2 class="title2content">What better way to celebrate the day than with delicious and nutritious food?</h2>
+        <!-- <button type="button" class="btn btn-outline-light btn-lg book-table-button">Book a table</button>
+        <button type="button" class="btn btn-outline-light btn-lg order-button">Order Online</button> -->
+
+        <input type="button" class="btn btn-outline-light btn-lg book-table-button" value="Book a table" onclick=" relocate()">
+        <script>
+        function relocate()
+        {
+             location.href = "book-table.html";
+        }
+        </script>
+        <input type="button" class="btn btn-outline-light btn-lg order-button" value="Order Online" onclick=" relocate_home()">
+
+        <script>
+        function relocate_home()
+        {
+             location.href = "https://www.swiggy.com/";
+        }
+        </script>
+
+
+      </div>
+      <!--<a class="book-table" href="#">Book a Table</a>-->
+    </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="aboutheading">
+      <h1 class="aboutfont" style="color:black;">About Us</h1>
+    </div>
+    <div class="row">
+      <div class="box col-lg-4">
+        <h3>Quality</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Excepteur sint occaecat cupidatat non proident aliquet porttitor sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="box col-lg-4">
+        <h3>Hygiene</h3>
+        <p>Ac turpis egestas maecenas pharetra excepteur sint occaecat cupidatat non proident aliquet porttitor convallis posuere morbi leo urna. Eu non diam phasellus vestibulum lorem sed.</p>
+      </div>
+      <div class="box col-lg-4">
+        <h3>Delicious</h3>
+        <p>Amet mattis vulputate enim nulla aliquet excepteur sint occaecat cupidatat non proident aliquet porttitor porttitor lacus luctus. Morbi tristique senectus et netus et malesuada.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <div class="menuheading">
+      <p class="pmenuhead">
+        Menu
+      </p>
+      <p class="pmenuheadcontent">Excepteur sint occaecat cupidatat non proident aliquet porttitor.</p>
+    </div>
+    <div class="menucontent">
+      <div class="row">
+        <div class="box1 col-lg-3">
+          <img class="appi image-resize" src="images/sapagetti-main.jpg"" alt=" omlet">
+          <div class="appicontent">
+            <a class="link" href="menulisting.html" style="color:white;">Appetizers</a>
+          </div>
+        </div>
+        <div class="box1 col-lg-3">
+          <img class="salads image-resize" src="images/salad.jpg" align="absbottom" alt="salads">
+          <div class="saladscontent">
+            <a class="link" href="menulisting.html" style="color:white;">Salads</a>
+          </div>
+        </div>
+        <div class="box1 col-lg-3">
+          <img class="main-course image-resize" src="images/mc.jpg" align="absbottom" alt="meals">
+          <div class="maincoursecontent">
+            <a class="link" href="menulisting.html" style="color:white;">Main Course</a>
+          </div>
+        </div>
+        <div class="box1 col-lg-3">
+          <img class="desert image-resize" src="images/bicecream.jpg" align="absbottom" alt="brownie">
+          <div class="desertcontent">
+            <a class="link" href="menulisting.html" style="color:white;">Deserts&Drinks</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="gallery" id="gallery">
+    <div class="aboutheading">
+      <h1 class="aboutfont" style="color:black;">Gallery</h1>
+    </div>
+
+    <div class="conatiner-fluid">
+      <div class="row">
+        <div class="box3 col-lg-3">
+          <img src="images/res2.jpeg" alt="res2">
+        </div>
+        <div class="box3 col-lg-3">
+          <img src="images/res3.jpeg" alt="res3">
+        </div>
+        <div class="box3 col-lg-3">
+          <img src="images/res4.jpeg" alt="res4">
+        </div>
+        <div class="box3 col-lg-3">
+          <img src="images/res5.jpeg" alt="res5">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials" id="testi-monial">
+
+    <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit urna porttitor rhoncus dolor, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Non proident, sunt in culpa qui.</h2>
+          <img class="testimonial-image" src="images/nons.jpg" alt="dog-profile">
+          <em>Mumbai, Maharastra</em>
+
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Viverra tellus in hac habitasse platea dictumst vestibulum. Risus quis varius quam quisque id diam. Laoreet sit amet cursus sit amet. Excepteur sint occaecat cupidatat quis nostrud exercitation ullamco.</h2>
+          <img class="testimonial-image" src="images/brownie.jpg" alt="lady-profile">
+          <em>Hyderabad, Telangana</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">Odio euismod lacinia at quis risus. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Ut placerat orci nulla pellentesque dignissim enim. Eget nunc lobortis mattis aliquam faucibus purus in
+            massa..</h2>
+          <img class="testimonial-image" src="images/pancakes.jpg" alt="profile">
+          <em>Hyderabad, Telangana</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+  <div class="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </div>
+
+  <!-- Footer -->
+
+  <footer class="footer-section" id="footer">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-5 col-md-6">
+          <div class="footer-info">
+            <h3 class="foottitle">QUICKEATS</h3>
+            <p class="foot-head-content">
+              Hyderabad, Telangana, India<br><br>
+              <strong>Phone:</strong> +1 9999 88888 77<br>
+              <strong>Email:</strong> quickeats@gmail.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4 class="footlinktitle">Useful Links</h4>
+          <div>
+            <i class="bx bx-chevron-right"></i><a href="#home" style="color:white;">Home</a></li> <br>
+            <i class="bx bx-chevron-right"></i> <a href="#about" style="color:white;">About us</a></li> <br>
+            <i class="bx bx-chevron-right"></i> <a href="#menu" style="color:white;">Menu</a></li> <br>
+            <i class="bx bx-chevron-right"></i> <a href="#contact" style="color:white;">Contact</a></li>
+
+          </div>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 footer-newsletter">
+          <h4 class="footnewstitle">Newsletter</h4>
+          <p class="footnewscontent">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+          <form action="mailto:adddff123@gmail.com" method="post">
+            <input type="email" name="email"><input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="icons">
+        <i class="social-icon fab fa-facebook-f"></i>
+        <i class="social-icon fab fa-twitter"></i>
+        <i class="social-icon fab fa-instagram"></i>
+        <i class="social-icon fas fa-envelope"></i>
+      </div>
+      <div class="dfg">
+        <p class="copyright">© Copyright 2021 Quickeats</p>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
